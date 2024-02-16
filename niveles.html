@@ -135,7 +135,7 @@
             </a>
         </div>
     </div>
-    <section class=" bg-dark">
+    <section class=" bg-dark" style="background-image: url(./img/bg-niveles.webp); ">
         <div class="container text-center py-5">
             <div id="imagen"></div>
             <h2 class="text-light m-0 fs-1"><span class="text-primary text-uppercase" id="nivel"></span></h2>
@@ -173,30 +173,42 @@
                 <h1 class="display-6 mb-5">Qué encontrarás en este nivel</h1>
             </div>
             <div class="d-flex g-4 gap-4 overflow-auto">
-                <div class="col-9 col-lg-4 col-md-6 wow " >
+                <div class="col-9 col-lg-3 col-md-6 wow " >
                     <div class="service-item bg-white text-center h-100">
                         <img class="img-fluid shadow" src="img/coaches-personalizados-era.webp" alt="">
-                        <div class="p-4 p-xl-5">
-                            <h4 class="mb-3 text-uppercase" id="beneficio1"></h4>
-                            <p class="mb-4" id="descripcionBeneficio1"></p>
+                        <div class="p-3 p-xl-5">
+                            <h6 class="mb-3 text-uppercase" id="articulo1"></h6>
+                            <p class="mb-3" id="descripcionarticulo1"></p>
+                            <a class="btn btn-outline-primary px-3" href="articulo.html?idpost=1&nivel=encontrarse&titulo=de-que-sirve">
+                                VER MÁS
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-9 col-lg-4 col-md-6 wow " data-wow-delay="0.3s">
+                <div class="col-9 col-lg-3 col-md-6 wow " data-wow-delay="0.3s">
                     <div class="service-item bg-white text-center h-100">
                         <img class="img-fluid shadow" src="img/habitos-exitosos-era.webp" alt="">
                         <div class="p-4 p-xl-5">
-                            <h4 class="mb-3 text-uppercase" id="beneficio2"></h4>
-                            <p class="mb-4" id="descripcionBeneficio2"></p>                            
+                            <h6 class="mb-3 text-uppercase" id="articulo2"></h6>
+                            <p class="mb-4" id="descripcionarticulo2"></p>                            
                         </div>
                     </div>
                 </div>
-                <div class="col-9 col-lg-4 col-md-6 wow " data-wow-delay="0.5s">
+                <div class="col-9 col-lg-3 col-md-6 wow " data-wow-delay="0.5s">
                     <div class="service-item bg-white text-center h-100">
                         <img class="img-fluid shadow" src="img/caminata-sobre-brasas-era.webp" alt="">
                         <div class=" p-4 p-xl-5">
-                            <h4 class="mb-3 text-uppercase" id="beneficio3"></h4>
-                            <p class="mb-4" id="descripcionBeneficio3"></p>                            
+                            <h6 class="mb-3 text-uppercase" id="articulo3"></h6>
+                            <p class="mb-4" id="descripcionarticulo3"></p>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-6 wow " data-wow-delay="0.5s">
+                    <div class="service-item bg-white text-center h-100">
+                        <img class="img-fluid shadow" src="img/caminata-sobre-brasas-era.webp" alt="">
+                        <div class=" p-4 p-xl-5">
+                            <h6 class="mb-3 text-uppercase" id="articulo4"></h6>
+                            <p class="mb-4" id="descripcionarticulo4"></p>                            
                         </div>
                     </div>
                 </div>
@@ -469,7 +481,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/functions.js"></script>
+    <script src="js/functions.js"></script><script src="js/queryNiveles.js"></script>
 </body>
 
 </html>
