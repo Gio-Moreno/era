@@ -28,12 +28,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('titulo').innerText = nivelData.titulo;
                 document.getElementById('descripcion').innerText = nivelData.descripcion;
                 document.getElementById('duracion').innerText = `${nivelData.duracion}`;
-                document.getElementById('beneficio1').innerText = `${nivelData.beneficio1}`;
-                document.getElementById('descripcionBeneficio1').innerText = `${nivelData.descripcionBeneficio1}`;
-                document.getElementById('beneficio2').innerText = `${nivelData.beneficio2}`;
-                document.getElementById('descripcionBeneficio2').innerText = `${nivelData.descripcionBeneficio2}`;
-                document.getElementById('beneficio3').innerText = `${nivelData.beneficio3}`;
-                document.getElementById('descripcionBeneficio3').innerText = `${nivelData.descripcionBeneficio3}`;
+                document.getElementById('articulo1').innerText = `${nivelData.articulo1}`;
+                document.getElementById('descripcionarticulo1').innerText = `${nivelData.descripcionarticulo1}`;
+                document.getElementById('articulo2').innerText = `${nivelData.articulo2}`;
+                document.getElementById('descripcionarticulo2').innerText = `${nivelData.descripcionarticulo2}`;
+                document.getElementById('articulo3').innerText = `${nivelData.articulo3}`;
+                document.getElementById('descripcionarticulo3').innerText = `${nivelData.descripcionarticulo3}`;
+                document.getElementById('articulo4').innerText = `${nivelData.articulo4}`;
+                document.getElementById('descripcionarticulo4').innerText = `${nivelData.descripcionarticulo4}`;
             } else {
                 // Mostrar un mensaje si el nivel no existe
                 console.error('El nivel especificado no existe.');
@@ -42,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('imagen').innerText = 'El nivel especificado no existe.';
                 document.getElementById('titulo').innerText = '';
                 document.getElementById('duracion').innerText = '';
-                document.getElementById('beneficios').innerText = '';
+                document.getElementById('articulo').innerText = '';
             }
         })
         .catch(error => {
@@ -53,6 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('imagen').innerText = 'Error al cargar los datos del nivel.';
             document.getElementById('titulo').innerText = '';
             document.getElementById('duracion').innerText = '';
-            document.getElementById('beneficios').innerText = '';
+            document.getElementById('articulos').innerText = '';
         });
 });
